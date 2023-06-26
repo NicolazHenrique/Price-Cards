@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body{
+    background-image: linear-gradient(#030304, #62676b);
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 100px;
+}
+
+.main-title{
+    text-transform: uppercase;
+    font-size: 63px;
+    text-align: center;
+    margin: 46px 0;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 6px black;
+}
+
+header{
+    display: flex;
+    padding: 16px;
+    background-color: #060708;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    min-width: fit-content;
+}
+
+.main-top__logo{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-left: 14px;
+}
+
+.main-top__actions ul{
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+}
+
+.main-top__actions a{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.main-top__actions a:hover{
+    color: #cbe300;
+}
+
+a.main-top__actions--active{
+    background-color: #cbe300;
+    color: black;
+    pointer-events: none;
+}
+
+a.main-top__actions--login:hover{
+    color: #cbe300;
+}
+
+.pricing-plans{
+    display: flex;
+    gap: 16px;
+}
+
+.princing-plan__base{
+    flex: 1;
+    background-color: rgba(6, 7, 8, .5);
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 6px 15px -6px #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan__titile{
+    margin-top: 0;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    letter-spacing: 2px;
+}
+
+.pricing-plan__price{
+    font-size: 33px;
+}
+
+.pricing-plan__features{
+    margin: 0 0 35px;
+    padding-left: 16px;
+    color: #b5b5b5b5;
+    line-height: 1.8;
+    flex-grow: 1;
+}
+
+.pricing-plan__features li::marker{
+    color: #cbe300;
+}
+
+.pricing-plan__cta{
+    background-color: #cbe300;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+}
+
+.pricing-plan__cta:hover{
+    background-color: #05080a;
+    color: white;
+}
